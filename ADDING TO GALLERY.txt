@@ -1,0 +1,15 @@
+How to add images to the gallery:
+
+1. Go into the images folder on github and drag and drop all the photos you want to add into the folder. Wait for them to uplaod and then scroll down and press the green 'commit changes' button. Go back to the previous folder and open up the file called index.html and press the little pen icon to edit the document.
+
+2. You will see a big chunk of code that has the same lines repeated over and over undeath eachother. Each line will look something like this:
+
+	<div class="image fit"><a href="images/pic01.jpg"><img src="images/pic01.jpg" alt="" title="Don't forget to check the Information Tab!"/></a></div>
+
+3. You will want to copt this line of code and paste it at the end of the chunk, before the </div> tag. There are two bits in this line that you will have to edit. First you will need to change the bit that says - href="images/pic01.jpg" - to whatever the name of your photo is. For example, if your photo is called 123hgf.jpg you will need to change the section of code to be - href="images/123hgf.jpg".
+
+4. Do the same thing for the section of code that says - src="images/pic01.jpg".
+
+5. Repeat these steps for all the photos you wish to add to the gallery, rememebring to put in the name of the photo exactly the way it appears.
+
+6. Once you have added all the photos you want into the gallery, scroll down and press the green 'commit changes' button. It will take a few minutes for the changes to go live but if they don't show up after an hour or so just message me and I'll duck in and take a look.
